@@ -1,8 +1,8 @@
 cask "droiddock" do
-  version "0.3.0"
-  sha256 "55a8e196372e840c9719362ceea44bf77eab7e96fcd6171fc28bc60ff76ec6c9"
+  version "0.4.0"
+  sha256 "f71b38532c8d40d2ed734220514fd9cdd19b9672fbd163ced5212d8417c41009"
 
-  url "https://github.com/rajivm1991/DroidDock/releases/download/v#{version}/DroidDock_0.3.0_universal.dmg"
+  url "https://github.com/rajivm1991/DroidDock/releases/download/v#{version}/DroidDock_#{version}_aarch64.dmg"
   name "DroidDock"
   desc "Desktop tool for Android device management"
   homepage "https://github.com/rajivm1991/DroidDock"
